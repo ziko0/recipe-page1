@@ -1,0 +1,190 @@
+@media (min-width: 992px){
+    .container{
+        grid-template-columns: repeat(12, 1fr);
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    header{
+        grid-column: 1 / span 9;
+    }
+
+    main{
+        grid-column: 1 / span 7;
+        grid-row: 2;
+    }
+
+    aside{
+        grid-column: 12 / span 12 ;
+        grid-row: 2;
+    }
+
+    footer{
+        grid-column: 1 / span 12;
+    }
+
+    .header-wrapper{
+        width: 100%;
+    }
+
+    .header-title{
+        width: 587px;
+        height: 64px;
+        font-size: 48px;
+    }
+
+    .header-txt{
+        width: 600px;
+        height: 51px;
+        font-size: 14px;
+    }
+
+    .header-hero{
+        width: 969px;
+        height: 470px;
+    }
+
+    /* aside */
+    .coocking{
+        width: 216px;
+        height: 367px;
+        margin-top: 1rem;
+        margin: 0 auto;
+        justify-content: center;
+        /* align-items: center; */
+        background: #FFFFFF;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+        border-radius: 12px;
+        gap: 20px
+    }
+
+    .coocking-top{
+        margin: 0 2.5rem;
+    }
+
+    .yields{
+        font-size: 10px;
+    }
+
+    .servings{
+        font-size: 14px;
+    }
+
+    .spoon-knife{
+        width: 27px;
+        height: 25px;
+    }
+
+    .coocking-time{
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .time{
+        gap: 10px;
+    }
+
+    .clock{
+        width: 28.33px;
+        height: 28.33px;
+    }
+
+    .coock-title{
+        font-size: 10px;
+    }
+
+    .coock-minutes{
+        font-size: 14px;
+    }
+    /* main */
+    
+    .ingredients-title{
+        font-size: 24px;
+    }
+
+    .sub-title{
+        font-size: 18px;
+    }
+
+    
+
+    .blocks > .content-txt{
+        font-size: 16px;
+        width: 554px;
+    }
+
+
+    .in-blocks{
+        width: 600px;
+    }
+
+    .in-blocks > .content-txt{
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1200px){
+    
+    header{
+        grid-column: 2 / span 10;
+    }
+
+    main{
+        grid-column: 2 / span 8;
+        grid-row: 2;
+    }
+
+    aside{
+        grid-column: 9 / span 10 ;
+        grid-row: 2;
+    }
+
+    footer{
+        grid-column: 1 / span 12;
+    }
+}
+
+@media (min-width: 1440px){
+    
+    header{
+        grid-column: 3 / span 11;
+    }
+
+    main{
+        grid-column: 3 / span 5;
+        grid-row: 2;
+    }
+
+    aside{
+        grid-column: 8 / span 9 ;
+        grid-row: 2;
+    }
+
+    footer{
+        grid-column: 1 / span 12;
+    }
+
+
+}
+
+@media (min-width: 1600px){
+   
+    header{
+        grid-column: 4 / span 5;
+    }
+
+    main{
+        grid-column: 4 / span 6;
+        grid-row: 2;
+    }
+
+    aside{
+        grid-column: 6 / span 12 ;
+        grid-row: 2;
+    }
+
+    footer{
+        grid-column: 1 / span 12;
+    }
+}
